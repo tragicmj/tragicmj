@@ -1,0 +1,34 @@
+<svg width="1200" height="160" viewBox="0 0 1200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1f2b"/>
+      <stop offset="50%" stop-color="#0d1526"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5c4"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="160" fill="url(#bg2)"/>
+  <g stroke="#1e2a3f" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="30" x2="1200" y2="30"/>
+    <line x1="0" y1="130" x2="1200" y2="130"/>
+  </g>
+  <text x="600" y="72" text-anchor="middle" font-family="SFMono-Regular,Consolas,monospace" font-size="20" fill="url(#accent2)" font-weight="600">
+    thanks for stopping by
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <text x="600" y="100" text-anchor="middle" font-family="SFMono-Regular,Consolas,monospace" font-size="14" fill="#5b6b85">
+    $ echo "let's build something" &amp;&amp; git commit -m "say hi"
+  </text>
+  <g fill="#22d3ee" opacity="0.5">
+    <circle cx="120" cy="80" r="2">
+      <animate attributeName="cy" values="80;60;80" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="90" r="2" fill="#818cf8">
+      <animate attributeName="cy" values="90;70;90" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
